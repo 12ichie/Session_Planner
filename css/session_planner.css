@@ -1,0 +1,247 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin-left: 500px;
+    margin-right: 500px;
+    color: white;
+    background-image: linear-gradient(rgba(120, 120, 108, 0.372), rgba(120, 120, 108, 0.372)), url('file:///C:/Users/Richie/OneDrive/Desktop/Front_End_Developer_Portfolio/IMG/weights-in-the-gym-free-license-cc0.jpg');
+    background-size: cover;
+    width: 1100px;
+    height: 1100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: math;
+    text-decoration: underline;
+    background-color: #000000d4;
+    border-radius: 20px;
+    border-bottom-color: white;
+    border-style: solid;
+}
+
+/*Contains all elements for the date*/
+.date-con {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#dateandtime {
+    background-color: rgb(4, 33, 51, 67%);
+    border-radius: 20px;
+    border-bottom-color: white;
+    border-style: solid;
+    border-bottom-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Contains all elements for the Stopwatch*/
+.SCon {
+    display: inline-flex;
+    position: fixed;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-color: white;
+    width: 70px;
+    background-color: #ff8c0091;
+    border-radius: 20px;
+    width: 120px;
+    height: 350px;
+    border-radius: 20px;
+    border-bottom-color: white;
+    border-style: solid;
+    border-bottom-style: none;
+}
+
+h3.stopwatch-t {
+    font-size: 23px;
+    margin-bottom: 0%;
+    background-color: darkorange;
+    border-radius: 20px;
+    text-decoration: overline;
+
+}
+
+.stopwatch-nums {
+    display: inline-flex;
+}
+
+.stopwatchReset {
+    margin-bottom: 15px;
+    display: inline-flex;
+    border-radius: 20px;
+}
+
+.stopwatchReset:hover {
+    border-color: rgb(171, 109, 1);
+}
+
+.stopwatchColon {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.stopwatchP {
+    display: inline-flex;
+    border-radius: 20px;
+}
+
+.stopwatchP:hover {
+    border-color: rgb(171, 109, 1);
+}
+
+
+
+p {
+    font-size: x-large;
+}
+
+/* Main button containers*/
+#exerciseBtns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.add {
+    background-color: rgb(8, 123, 162);
+    padding: 10px;
+    border-radius: 100px;
+    margin-right: 30px;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.add:hover {
+    border-color: rgb(116, 205, 235);
+}
+
+.delete {
+    margin-left: 5px;
+    margin-right: 30px;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.delete:hover {
+    border-color: lightcoral;
+}
+
+.load {
+    background-color: rgb(174, 215, 24);
+    padding: 10px;
+    border-radius: 100px;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.load:hover {
+    border-color: rgb(189, 242, 109);
+}
+
+/* input bars*/
+#exerciseInputCon {
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+
+
+#exerciseBars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+
+.exercise {
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+    height: 30px;
+}
+
+
+.reps {
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 90px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.instuction p {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+
+.table-title {
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+.box-design {
+    background-color: #000000d4;
+    padding-right: 20px;
+    font-size: 35px;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    border-bottom-style: none;
+    border-top-style: solid;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+
+/*li (list adjustments)*/
+.exercise-list {
+    padding-left: 0px;
+}
+
+.rep-list {
+    padding-left: 0px;
+}
+
+.day-list input {
+    margin-left: 20px;
+}
+
+.day-list {
+    padding-left: 0%;
+}
+
+li {
+    padding-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.invalid-entry {
+    display: flex;
+    justify-content: center;
+}
+
+/*input checkbox*/
+.day-check {
+    width: 20px;
+    height: 20px;
+}
